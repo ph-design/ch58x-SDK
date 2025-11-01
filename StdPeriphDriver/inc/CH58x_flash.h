@@ -26,9 +26,6 @@ extern "C" {
  */
 void FLASH_ROM_READ(uint32_t StartAddr, void *Buffer, uint32_t len);
 
-//Fixme: type definition consistency, though they are equivalent
-//void FLASH_ROM_READ(UINT32 StartAddr, PVOID Buffer, UINT32 len); /* 读取Flash-ROM */
-
 UINT8 UserOptionByteConfig(FunctionalState RESET_EN, FunctionalState BOOT_PIN, FunctionalState UART_NO_KEY_EN,
                            UINT32 FLASHProt_Size);
 
